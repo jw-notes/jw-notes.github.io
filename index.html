@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101414">
+  <meta name="description" content="J.W's public notebook. Code, systems, homelab tools and experiments from jw-notes.">
+  <title>J.W — Code, systems & experiments</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#projects">Skip to projects</a>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="J.W home">J.W<span>/</span></a>
+    <nav aria-label="Main navigation"><a href="#projects">Projects</a><a href="#notes">Notes</a><a href="#about">About</a></nav>
+    <a class="github" href="https://github.com/jw-notes">GitHub <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow">JW-NOTES / THE PUBLIC NOTEBOOK</p>
+        <h1 id="hero-title">Built out of<br><em>curiosity.</em></h1>
+        <p class="intro">Code, systems & experiments.<br>Things I build, break, understand, and try to build better.</p>
+        <div class="hero-actions"><a class="button primary" href="#projects">Explore the projects</a><a class="text-link" href="#about">A little about me</a></div>
+      </div>
+      <div class="field-notes" aria-label="Development philosophy">
+        <div class="note-top"><span>FIELD NOTES</span><span>01 — ∞</span></div>
+        <div class="wordmark" aria-hidden="true">J<span>W</span><i>.</i></div>
+        <div class="code-lines"><p><span>01</span> build it</p><p><span>02</span> break it</p><p><span>03</span> understand it</p><p><span>04</span> try to build it better<span class="cursor" aria-hidden="true">_</span></p></div>
+        <p class="note-bottom">DOCUMENT THE RABBIT HOLES.</p>
+      </div>
+    </section>
+    <div class="discipline-strip"><div class="wrap"><span>JavaScript</span><b aria-hidden="true">/</b><span>Python</span><b aria-hidden="true">/</b><span>Linux</span><b aria-hidden="true">/</b><span>Self-hosting</span><b aria-hidden="true">/</b><span>Reverse engineering</span></div></div>
+    <section id="projects" class="projects wrap" aria-labelledby="projects-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="projects-title">From the workbench.</h2></div><p>Useful tools. Small experiments.<br>Things worth keeping.</p></div>
+      <div class="filter-row"><div class="filters" role="group" aria-label="Filter projects"><button class="active" data-filter="all" aria-pressed="true">All projects</button><button data-filter="homelab" aria-pressed="false">Homelab</button><button data-filter="tools" aria-pressed="false">Tools</button><button data-filter="notes" aria-pressed="false">Notes</button></div><span id="project-count" role="status">3 projects</span></div>
+      <div class="project-grid">
+        <article class="project featured" data-category="homelab">
+          <div class="palette-preview"><div class="preview-label"><span>HOMESERVER / CASAOS</span><span>V32</span></div><div class="swatches" aria-hidden="true"><span></span><span></span><span></span><span></span></div><div class="preview-bottom"><span>Grey. Glass. Teal.</span><span>Theme palette</span></div></div>
+          <div class="project-body"><p class="project-kind">01 / HOMELAB · CSS + JAVASCRIPT</p><h3>HomeServer Theme</h3><p>A CasaOS interface that feels like home. Dark and light modes, teal accents, and consistent styling across settings, Files, App Store and Terminal.</p><div class="tags"><span>CasaOS</span><span>Dark / light</span><span>v32</span></div><div class="project-links"><a href="https://github.com/jw-notes/Homelab/tree/main/themes/casaos/dark">View source</a><a href="assets/homelab-casaos-dark-v32.zip" download>Download theme</a></div></div>
+        </article>
+        <article class="project" data-category="homelab tools"><div class="tool-preview"><p>HOMESERVER CONNECT</p><div class="tool-word">Less faff.<br><span>More access.</span></div><div class="tool-protocols"><span>SMB</span><span>SSH</span><span>SAMBA</span></div></div><div class="project-body"><p class="project-kind">02 / TOOLS · PYTHON</p><h3>HomeServer Connect</h3><p>Quick access to server shares and SSH, with saved connections, connection checks and remote Samba controls. Built for Windows and Linux.</p><div class="tags"><span>Python</span><span>PyQt6</span><span>Paramiko</span></div><div class="project-links"><a href="https://github.com/jw-notes/Homelab/tree/main/HomeServer-Connect">View source</a><a href="https://github.com/jw-notes/Homelab/blob/main/HomeServer-Connect/readme.md">Setup guide</a></div></div></article>
+        <article class="project notebook" data-category="notes"><div class="notebook-preview"><span>THE PUBLIC NOTEBOOK</span><div>What happens<br>if I try <em>this?</em></div><span>IDEAS / CODE / UNFINISHED THINGS</span></div><div class="project-body"><p class="project-kind">03 / NOTES · EXPLORATION</p><h3>jw-notes</h3><p>The starting point for my public notebook: interests, tools, experiments and the technical rabbit holes I end up down.</p><div class="tags"><span>Experiments</span><span>Learning</span><span>Open notebook</span></div><div class="project-links"><a href="https://github.com/jw-notes/jw-notes">Open notebook</a></div></div></article>
+      </div>
+      <p class="project-footnote">An evolving collection. More projects will find their way here.</p>
+    </section>
+    <section id="notes" class="notes wrap" aria-labelledby="notes-title"><div class="section-heading"><div><p class="eyebrow">02 / NOTES & GUIDES</p><h2 id="notes-title">Leave a trail.</h2></div><p>So the next rabbit hole<br>doesn't start from scratch.</p></div><div class="note-list"><a href="https://github.com/jw-notes/Homelab/blob/main/themes/casaos/dark/readme.md"><span class="note-index">01</span><div><h3>Give CasaOS a new coat of paint</h3><p>Install the HomeServer theme, back it up, and remove it when needed.</p></div><span class="note-type">INSTALLATION</span></a><a href="https://github.com/jw-notes/Homelab/blob/main/HomeServer-Connect/readme.md"><span class="note-index">02</span><div><h3>Connect to your home server</h3><p>Dependencies, setup and building the desktop tool.</p></div><span class="note-type">SETUP GUIDE</span></a></div></section>
+    <section id="about" class="about wrap" aria-labelledby="about-title"><div><p class="eyebrow">03 / BEHIND THE NOTES</p><h2 id="about-title">I like figuring out<br>what's underneath.</h2></div><div class="about-copy"><p>I'm a developer who likes understanding how things work beneath the surface. That usually means building something, taking it apart, and following whatever question turns up next.</p><p>This is my public notebook: projects, experiments, research and unfinished ideas. Some become useful tools. Others exist because I wanted to understand something.</p><div class="interest-tags"><span>Ethical security research</span><span>Reverse engineering</span><span>Docker & self-hosting</span><span>Networking</span><span>Game scripting</span><span>Automation</span></div><a class="text-link" href="https://github.com/jw-notes?tab=repositories">Browse the repositories</a></div></section>
+    <section class="closing wrap"><p>Still curious.</p><h2>There's always another<br>rabbit hole.</h2><a class="button primary" href="https://github.com/jw-notes">Follow the notebook</a></section>
+  </main>
+  <footer class="wrap"><a class="brand" href="#">J.W<span>/</span></a><p>Built, broken, understood. <span>© <span id="year">2026</span> jw-notes</span></p><a href="https://github.com/jw-notes">GitHub</a></footer>
+</body>
+</html>
